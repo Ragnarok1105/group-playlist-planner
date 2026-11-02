@@ -1,0 +1,13 @@
+*.class
+bin/
+out/
+target/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+data/*
+!data/README.md
+exports/*
+!exports/README.md
