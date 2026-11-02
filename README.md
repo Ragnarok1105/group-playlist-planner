@@ -70,7 +70,10 @@ Each milestone should end in a meaningful commit. Test each feature as it is imp
 
 - [Interface mockup draft](docs/CS193_Final.drawio): my editable draw.io file showing the welcome, event setup, song submission, and results screens.
 - The system diagram still needs labeled connections, a clear entry point, and the remaining MVP steps before it is ready for submission.
-- The completed Eisenhower matrix PDF and exported diagram image will be added here once ready.
+- [PNG export](docs/CS193_Final.png) of the same drawing.
+- The completed Eisenhower matrix PDF is still pending.
+
+![Interface mockup](docs/CS193_Final.png)
 
 ## Development setup
 
