@@ -1,16 +1,16 @@
 # Group Playlist Planner
 
-A planned Java terminal application for CS 193 that helps friends choose music together for an occasion.
+A Java project for CS 193 that lets friends put together a playlist for a hangout, party, or other event.
 
 ## Problem
 
-Music sets the mood when friends get together, but the person controlling the playlist often decides what everyone hears. The goal is to make music selection collaborative so the final playlist reflects the group's preferences and gives everyone a chance to contribute.
+Whenever my friends and I get together, music is a big part of it. Usually, whoever has the aux ends up choosing what everyone listens to. I want to give everyone a say and put together a playlist that fits the occasion.
 
 ## Solution and current status
 
-Friends submit songs for an event and anonymously rate other participants' submissions. The program will use song and genre ratings to generate one balanced playlist while giving each friend representation.
+Everyone submits a few songs and takes turns rating the other submissions without seeing who picked them. The program uses those ratings to find the group's favorite songs and genres, then puts together a playlist that gives each friend some representation.
 
-The project is currently in the planning stage. Version 1 will run on one shared computer with manually entered songs and local files. Its playlist output will be a saved track list. Spotify API integration, a discovery round for similar songs, and mobile-web support are future improvements; the MVP will not create a playlist in Spotify.
+I'm starting with a terminal program on one shared computer. People will enter songs manually, and the program will save the final track list to a file. Connecting it to Spotify, suggesting similar songs, and letting people join from their phones are things I want to add later.
 
 ## MVP scope
 
@@ -68,7 +68,9 @@ Each milestone should end in a meaningful commit. Test each feature as it is imp
 
 ## Design documents
 
-The completed Eisenhower matrix PDF and student-created system diagram (PNG/JPG and editable source) are pending and will be added under `docs/`.
+- [Interface mockup draft](docs/CS193_Final.drawio): my editable draw.io file showing the welcome, event setup, song submission, and results screens.
+- The system diagram still needs labeled connections, a clear entry point, and the remaining MVP steps before it is ready for submission.
+- The completed Eisenhower matrix PDF and exported diagram image will be added here once ready.
 
 ## Development setup
 
